@@ -55,7 +55,7 @@ def movies_with_director_key(name, movies_collection)
     director_and_movies << movie_with_director_name(name, current_movie)
     movie_index += 1
   end
-
+  return director_and_movies
 end
 
 
@@ -81,6 +81,7 @@ def gross_per_studio(collection)
     end
     movie_index += 1
   end
+  return studio_gross
 end
 
 def movies_with_directors_set(source)
@@ -94,6 +95,7 @@ def movies_with_directors_set(source)
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
+  
 end
 
 # ----------------    End of Your Code Region --------------------

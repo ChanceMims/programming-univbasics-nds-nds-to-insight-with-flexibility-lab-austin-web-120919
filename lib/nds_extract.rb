@@ -74,7 +74,7 @@ def gross_per_studio(collection)
   movie_index = 0
   studio_gross = {}
   while movie_index < collection.length do
-    if !studio_gross[:studio] 
+    if !studio_gross[:studio]
       studio_gross[:studio] = collection[movie_index][:worldwide_gross]
     else
       studio_gross[:studio] += collection[movie_index][:worldwide_gross]

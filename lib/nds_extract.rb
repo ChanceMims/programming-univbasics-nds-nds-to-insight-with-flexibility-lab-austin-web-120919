@@ -107,6 +107,7 @@ def movies_with_directors_set(source)
     end
     movie_index += 1
   end
+  return movies_paired_with_directors
 end
 
 # ----------------    End of Your Code Region --------------------
